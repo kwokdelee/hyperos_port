@@ -3,10 +3,10 @@ on:
   workflow_dispatch:
     inputs:
       STOCK_URL:
-        description: "待操作的底包/xiaomi.eu底包下载地址 | BASEROM DIRECT DOWNLOAD LINK(XIAOMI.EU or CN OFFICIAL ROM)"
+        description: "https://05mifirm.cloud/MyUrLiwlJzsOOD0BMQEXKQ4KMAg0FSkvORE9Iw4uPQMnECJBDgI5LycSFzIDKR8fEDI1Hw4RMAg0FS0cEAk9MhApLSUxIT0BORUAHAMwJwAOAh0vHwEiQQ4tMgUGLjBAFQkwHCcCBiI5Ch8COQofKR8EOgAfEiJBDiAICCwlADonAywAHxYUPx8CKTAfQRMT"
         required: true
       PORT_URL:
-        description: "待操作的移植包下载地址 | PORTROM DIRECT DOWNLOAD LINK(XIAOMI.EU OR CN OFFICIAL ROM)"
+        description: "https://05mifirm.cloud/MyUrLiwlJzsOOD0BMQEXKQ4KMAg0FSkvORE9Iw4wOQAfEiJBDgI5LycSF0IQMB8fEDI1Hw4RMAg0FS0cBi4EHytCACcQQgQFKxEADDkKBCY8MDkAHxIiQQ4COS8nEhdCEDAfHxAyNR88HjUBGwMaCgUhMi0nCiscJwMnLycSFzszPBo6HBYJPycDBiIfHjkXJxY5Ew=="
         required: true
       PACK_TYPE:
         description: "打包类型（EXT/EROFS) | PACKING TYPE(EXT/EROFS), EROFS BY DEFAULT"
